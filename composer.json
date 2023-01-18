@@ -1,12 +1,12 @@
 {
-    "name": "alt-three/segment",
+    "name": "unicornpartners/laravel9-segment",
     "description": "A Segment bridge for Laravel",
-    "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three"],
+    "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three", "laravel", "php8"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alt Three",
-            "email": "support@alt-three.com"
+            "name": "Dan Uyemura",
+            "email": "dan@unicornpartners.co"
         }
     ],
     "require": {
