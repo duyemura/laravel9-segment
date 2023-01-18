@@ -1,0 +1,45 @@
+{
+    "name": "alt-three/segment",
+    "description": "A Segment bridge for Laravel",
+    "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alt Three",
+            "email": "support@alt-three.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/config": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "segmentio/analytics-php": "~2.0.0"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^2.4 || ^3.0",
+        "graham-campbell/testbench": "^5.5",
+        "phpunit/phpunit": "^6.5 || ^7.5 || ^8.4 || ^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AltThree\\Segment\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AltThree\\Tests\\Segment\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AltThree\\Segment\\SegmentServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
